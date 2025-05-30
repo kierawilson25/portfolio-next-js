@@ -6,8 +6,8 @@ const person = {
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
-  avatar: "/images/avatar.jpg",
+  role: "Full Stack Engineer",
+  avatar: "/images/Headshot.jpg",
   email: "kiera.wilson025@gmail.com",
   location: "America/Chicago", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: [], // optional: Leave the array empty if you don't want to display languages
@@ -58,8 +58,8 @@ const home = {
   },
   subline: (
     <>
-      My name is Kiera Wilson. I am a Full Stack Software Engineering specializing in Front End development in the FinTech industry. I am passionate about creating 
-      <br /> intuitive solutions for complex problems. My portfolio will give you an idea of my work and skills. Click around and stay awhile. 
+      Its my world, you're just living in it. This portfolio show cases my work from undergrad, graduate school, and my professional career. 
+      <br /> Click around and stay awhile. 
     </>
   ),
 };
@@ -86,7 +86,8 @@ const about = {
     description: (
       <>
         Kiera Wilson is a Minneapolis based software engineer with a passtion for creativity and enginuity. She holds a Bachelors of Science in Computer Science
-        and is currently pursing a Masters Degreen in Software Engineering from her Alama Mater, University of St. Thomas. Kiera is not only dedicated to crafting 
+        and is currently pursing a Masters Degreen in Software Engineering from her Alama Mater, University of St. Thomas. Her combination of engineering 
+        and business education stratigically positions her as a one of a kind developer. Kiera is not only dedicated to crafting 
         quick solutions but also sustainable ones. Documentation and readable code is a must for her. Her work is characterized by strong results leadership and 
         creativity. She is always looking for new challenges and opportunities to grow her skills.
       </>
@@ -97,17 +98,17 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Ameriprise Financial",
+        timeframe: "2024 - Present",
+        role: "Software Engineer",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Lead a team of developers to implement targeted marketing campaigns, driving conversions and 
+            generating over 300 million in revenue.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Develop and communicate teams road map to kep business partners and product owners. Gather Requirements
+            for campaigns from stakeholders and translate them into technical specifications for the team to execute on. 
           </>,
         ],
         images: [
@@ -143,12 +144,12 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "University of St. Thomas",
+        description: <>Bachelors of Science in Computer Science with a Minor in Business Administration.</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "University of St. Thomas",
+        description: <>Masters in Software Engineering. Set to finish May 2027.</>,
       },
     ],
   },
