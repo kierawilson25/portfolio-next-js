@@ -1,16 +1,16 @@
 import { Logo } from "@/once-ui/components";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Kiera",
+  lastName: "Wilson",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
   role: "Design Engineer",
   avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  email: "kiera.wilson025@gmail.com",
+  location: "Minneapolis/Charlotte", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: [], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -30,17 +30,12 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/kierawilson25",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
-  },
-  {
-    name: "X",
-    icon: "x",
-    link: "",
+    link: "https://www.linkedin.com/in/kiera-wilson-115601176",
   },
   {
     name: "Email",
@@ -55,16 +50,16 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  headline: <>Hey You, Welcome to Kiera World.</>,
   featured: {
     display: true,
-    title: <>Recent project: <strong className="ml-4">Once UI</strong></>,
+    title: <>Recent project: <strong className="ml-4">Habit Tracker</strong></>,
     href: "/work/building-once-ui-a-customizable-design-system",
   },
   subline: (
     <>
-      I'm Selene, a design engineer at <Logo icon={false} style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      My name is Kiera Wilson. I am a Full Stack Software Engineering specializing in Front End development in the FinTech industry. I am passionate about creating 
+      <br /> intuitive solutions for complex problems. My portfolio will give you an idea of my work and skills. Click around and stay awhile. 
     </>
   ),
 };
@@ -90,9 +85,10 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Kiera Wilson is a Minneapolis based software engineer with a passtion for creativity and enginuity. She holds a Bachelors of Science in Computer Science
+        and is currently pursing a Masters Degreen in Software Engineering from her Alama Mater, University of St. Thomas. Kiera is not only dedicated to crafting 
+        quick solutions but also sustainable ones. Documentation and readable code is a must for her. Her work is characterized by strong results leadership and 
+        creativity. She is always looking for new challenges and opportunities to grow her skills.
       </>
     ),
   },

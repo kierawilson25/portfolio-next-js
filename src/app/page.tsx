@@ -1,4 +1,5 @@
-import React from "react";
+import React from 'react'
+
 
 import { Heading, Flex, Text, Button, Avatar, RevealFx, Column, Badge, Row } from "@/once-ui/components";
 import { Projects } from "@/components/work/Projects";
