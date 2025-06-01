@@ -113,26 +113,43 @@ const about = {
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
+          // {
+          //   src: "/images/projects/project-01/cover-01.jpg",
+          //   alt: "Once UI Project",
+          //   width: 16,
+          //   height: 9,
+          // },
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Ameriprise Financial",
+        timeframe: "2022 - 2024",
+        role: "Programmer Analyst II",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Supported over 22 product teams by developing solutions to
+            extract information from DOM and javascript variables for
+            website analytics collection.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Developed a next.js web app utility that increased analytics speed
+            to market by 20%.
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "Ameriprise Financial",
+        timeframe: "2021 - 2022",
+        role: "User Experience Engineer",
+        achievements: [
+          <>
+            Contributed to the design engine platform at Ameriprise by providing developers
+            with a set of reusable components and design patterns.
+          </>,
+          <>
+            Collaborated with designers and mobile app developers to create a comprehensive
+            component library in Sketch, enabling consistent and efficient design.
           </>,
         ],
         images: [],
@@ -158,19 +175,13 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+        title: "Adobe Target - Personalization",
+        description: <>Certified Adobe Target Business Professional - Able to confiure highly effective marketing capaigns through front end technology.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
+            src: "/images/projects/project-01/Adobe.jpg",
+            alt: "Adobe Logo image",
             width: 16,
             height: 9,
           },
@@ -178,11 +189,11 @@ const about = {
       },
       {
         title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        description: <>Building next gen apps with Next.js + Tailwind.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/cover-04.jpg",
+            src: "/images/projects/project-01/habit-tracker.jpg",
             alt: "Project image",
             width: 16,
             height: 9,
