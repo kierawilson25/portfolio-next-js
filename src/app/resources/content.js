@@ -46,7 +46,7 @@ const social = [
 
 const home = {
   path: "/",
-  image: "/images/og/home.jpg",
+  image: "/images/Headshot.jpg",
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
@@ -54,12 +54,12 @@ const home = {
   featured: {
     display: true,
     title: <>Recent project: <strong className="ml-4">Habit Tracker</strong></>,
-    href: "/work/building-once-ui-a-customizable-design-system",
+    href: "https://habit-tracker-two-lemon.vercel.app/",
   },
   subline: (
     <>
       Its my world, you're just living in it. This portfolio show cases my work from undergrad, graduate school, and my professional career. 
-      <br /> Click around and stay awhile. 
+      <br /> This site is a work in progress and not all skills or projects have been added yet, check my github for my most recent work. Click around and stay awhile. 
     </>
   ),
 };
