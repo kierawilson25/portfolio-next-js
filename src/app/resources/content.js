@@ -77,7 +77,7 @@ const about = {
     display: true,
   },
   calendar: {
-    display: true,
+    display: false,
     link: "https://cal.com",
   },
   intro: {
@@ -194,6 +194,32 @@ const about = {
         images: [
           {
             src: "/images/projects/project-01/habit-tracker.jpg",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
+        title: "Java",
+        description: <>6 year of experience working with Java and strong skills in OOP.</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          {
+            src: "/images/projects/project-01/java-logo.jpg",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
+        title: "AWS",
+        description: <>Recently completed Cloud Computing and Infrastructure as Code courses.</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          {
+            src: "/images/projects/project-01/aws-logo.jpg",
             alt: "Project image",
             width: 16,
             height: 9,
