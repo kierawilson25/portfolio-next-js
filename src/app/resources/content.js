@@ -166,7 +166,7 @@ const about = {
       },
       {
         name: "University of St. Thomas",
-        description: <>Masters in Software Engineering. Set to finish May 2027.</>,
+        description: <>Masters in Software Engineering. Expected completion: May 2027.</>,
       },
     ],
   },
@@ -180,8 +180,21 @@ const about = {
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/Adobe.jpg",
+            src: "/images/skills/Adobe.jpg",
             alt: "Adobe Logo image",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
+        title: "Adobe Launch - Data Collection",
+        description: <>3 years of experience in front end data collection, supporting over 22 product teams.</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          {
+            src: "/images/skills/Adobe-tag-manager-logo.jpg",
+            alt: "Adobe Launch Tag manaer Logo image",
             width: 16,
             height: 9,
           },
@@ -193,8 +206,20 @@ const about = {
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/habit-tracker.jpg",
+            src: "/images/skills/habit-tracker.jpg",
             alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
+        title: "Javascript",
+        description: <>5 years of experience working with javscript on  enterprise level front end apps.</>,
+        images: [
+          {
+            src: "/images/skills/javascript-logo.jpg",
+            alt: "Javascript logo image",
             width: 16,
             height: 9,
           },
@@ -202,12 +227,23 @@ const about = {
       },
       {
         title: "Java",
-        description: <>6 year of experience working with Java and strong skills in OOP.</>,
-        // optional: leave the array empty if you don't want to display images
+        description: <>6 year of experience working with Java, developing strong skills in OOP.</>,
         images: [
           {
-            src: "/images/projects/project-01/java-logo.jpg",
-            alt: "Project image",
+            src: "/images/skills/java-logo.jpg",
+            alt: "Java logo image",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
+        title: "Python",
+        description: <>Experience working with python to build backend technologies as well as for building cloud infrastructure.</>,
+        images: [
+          {
+            src: "/images/skills/python-logo.jpg",
+            alt: "Python logo image",
             width: 16,
             height: 9,
           },
@@ -215,12 +251,12 @@ const about = {
       },
       {
         title: "AWS",
-        description: <>Recently completed Cloud Computing and Infrastructure as Code courses.</>,
+        description: <>Completed Cloud Computing and Infrastructure as Code course focused in AWS in graduate school.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/aws-logo.jpg",
-            alt: "Project image",
+            src: "/images/skills/aws-logo.jpg",
+            alt: "AWS logo image",
             width: 16,
             height: 9,
           },
