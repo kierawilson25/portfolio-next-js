@@ -86,7 +86,7 @@ const about = {
     description: (
       <>
         Kiera Wilson is a Minneapolis based software engineer with a passion for creativity and enginuity. She holds a Bachelors of Science in Computer Science
-        and is currently pursing a Masters Degreen in Software Engineering from her Alama Mater, University of St. Thomas. Her combination of engineering 
+        and is currently pursing a Masters Degreen in Software Engineering from her Alma Mater, University of St. Thomas. Her combination of engineering 
         and business education stratigically positions her as a one of a kind developer. Kiera is not only dedicated to crafting 
         quick solutions but also sustainable ones. Documentation and readable code is a must for her. Her work is characterized by strong results leadership and 
         creativity. She is always looking for new challenges and opportunities to grow her skills.
