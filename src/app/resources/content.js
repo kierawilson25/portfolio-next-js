@@ -18,8 +18,8 @@ const newsletter = {
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
-      I occasionally write about design, technology, and share thoughts on the intersection of
-      creativity and engineering.
+      I occasionally write about design, technology, and share thoughts on the
+      intersection of creativity and engineering.
     </>
   ),
 };
@@ -53,13 +53,20 @@ const home = {
   headline: <>Hey You, Welcome to Kiera World.</>,
   featured: {
     display: true,
-    title: <>Recent project: <strong className="ml-4">Habit Tracker</strong></>,
+    title: (
+      <>
+        Recent project: <strong className="ml-4">Habit Tracker</strong>
+      </>
+    ),
     href: "https://habit-tracker-two-lemon.vercel.app/",
   },
   subline: (
     <>
-      Its my world, you're just living in it. This portfolio show cases my work from undergrad, graduate school, and my professional career. 
-      <br /> This site is a work in progress and not all skills or projects have been added yet, check my github for my most recent work. Click around and stay awhile. 
+      Its my world, you're just living in it. This portfolio show cases my work
+      from undergrad, graduate school, and my professional career.
+      <br /> This site is a work in progress and not all skills or projects have
+      been added yet, check my github for my most recent work. Click around and
+      stay awhile.
     </>
   ),
 };
@@ -85,11 +92,16 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Kiera Wilson is a Minneapolis based software engineer with a passion for creativity and enginuity. She holds a Bachelors of Science in Computer Science
-        and is currently pursing a Masters Degreen in Software Engineering from her Alma Mater, University of St. Thomas. Her combination of engineering 
-        and business education stratigically positions her as a one of a kind developer. Kiera is not only dedicated to crafting 
-        quick solutions but also sustainable ones. Documentation and readable code is a must for her. Her work is characterized by strong results leadership and 
-        creativity. She is always looking for new challenges and opportunities to grow her skills.
+        Kiera Wilson is a Minneapolis based software engineer with a passion for
+        creativity and enginuity. She holds a Bachelors of Science in Computer
+        Science and is currently pursing a Masters Degree in Software
+        Engineering from her Alma Mater, University of St. Thomas. Her
+        combination of engineering and business education stratigically
+        positions her as a one of a kind developer. Kiera is not only dedicated
+        to crafting quick solutions but also sustainable ones. Documentation and
+        readable code is a must for her. Her work is characterized by strong
+        results leadership and creativity. She is always looking for new
+        challenges and opportunities to grow her skills.
       </>
     ),
   },
@@ -98,28 +110,42 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "Ameriprise Financial",
-        timeframe: "2024 - Present",
-        role: "Software Engineer",
+        company: "OMI Live",
+        timeframe: "2025 - Present",
+        role: "Technical Development Lead - Volunteer",
         achievements: [
           <>
-            Lead a team of developers to implement targeted marketing campaigns, driving conversions and 
-            generating over 300 million in revenue.
+            Direct a team of three engineers at OMI Live, overseeing weekly planning, 
+            task delegation, and performance check-ins to ensure timely and high-quality project execution.
           </>,
           <>
-            Develop and communicate teams road map to kep business partners and product owners. Gather Requirements
-            for campaigns from stakeholders and translate them into technical specifications for the team to execute on. 
+            Define technical strategy and roadmap, identifying priorities and aligning engineering efforts with broader product and organizational goals.
           </>,
         ],
-        images: [
-          // optional: leave the array empty if you don't want to display images
-          // {
-          //   src: "/images/projects/project-01/cover-01.jpg",
-          //   alt: "Once UI Project",
-          //   width: 16,
-          //   height: 9,
-          // },
+        images: [],
+      },
+      {
+        company: "Ameriprise Financial",
+        timeframe: "2024 - Present",
+        role: "Software Engineer - Personalization Lead",
+        achievements: [
+          <>
+            Lead a team of developers to implement targeted marketing campaigns,
+            driving conversions and generating over 300 million in revenue.
+          </>,
+          <>
+            Develop and communicate teams road map to key business partners and
+            product owners. Gather Requirements for campaigns from stakeholders
+            and translate them into technical specifications for the team to
+            execute on.
+          </>,
+          <>
+            Collaborate with senior business leaders to influence strategy of
+            personalization and A/B testing campaigns to optimize effectiveness
+            and set best practices.
+          </>,
         ],
+        images: [],
       },
       {
         company: "Ameriprise Financial",
@@ -127,9 +153,9 @@ const about = {
         role: "Programmer Analyst II",
         achievements: [
           <>
-            Supported over 22 product teams by developing solutions to
-            extract information from DOM and javascript variables for
-            website analytics collection.
+            Supported over 22 product teams by developing solutions to extract
+            information from DOM and javascript variables for website analytics
+            collection.
           </>,
           <>
             Developed a next.js web app utility that increased analytics speed
@@ -144,13 +170,26 @@ const about = {
         role: "User Experience Engineer",
         achievements: [
           <>
-            Contributed to the design engine platform at Ameriprise by providing developers
-            with a set of reusable components and design patterns.
+            Contributed to the design engine platform at Ameriprise by providing
+            developers with a set of reusable components and design patterns.
           </>,
           <>
-            Collaborated with designers and mobile app developers to create a comprehensive
-            component library in Sketch, enabling consistent and efficient design.
+            Collaborated with designers and mobile app developers to create a
+            comprehensive component library in Sketch, enabling consistent and
+            efficient design.
           </>,
+        ],
+        images: [],
+      },
+      {
+        company: "Army National Guard",
+        timeframe: "2016 - 2022",
+        role: "Supply Specialist",
+        achievements: [
+          <>
+            Conducted quarterly and yearly inventory to keep perfect
+            accountability of over $500,000 of government property.
+          </>
         ],
         images: [],
       },
@@ -162,11 +201,18 @@ const about = {
     institutions: [
       {
         name: "University of St. Thomas",
-        description: <>Bachelors of Science in Computer Science with a Minor in Business Administration.</>,
+        description: (
+          <>
+            Bachelors of Science in Computer Science with a Minor in Business
+            Administration.
+          </>
+        ),
       },
       {
         name: "University of St. Thomas",
-        description: <>Masters in Software Engineering. Expected completion: May 2027.</>,
+        description: (
+          <>Masters in Software Engineering. Expected completion: May 2027.</>
+        ),
       },
     ],
   },
@@ -176,7 +222,12 @@ const about = {
     skills: [
       {
         title: "Adobe Target - Personalization",
-        description: <>Certified Adobe Target Business Professional - Able to confiure highly effective marketing capaigns through front end technology.</>,
+        description: (
+          <>
+            Certified Adobe Target Business Professional - Able to confiure
+            highly effective marketing capaigns through front end technology.
+          </>
+        ),
         // optional: leave the array empty if you don't want to display images
         images: [
           {
@@ -189,7 +240,12 @@ const about = {
       },
       {
         title: "Adobe Launch - Data Collection",
-        description: <>3 years of experience in front end data collection, supporting over 22 product teams.</>,
+        description: (
+          <>
+            3 years of experience in front end data collection, supporting over
+            22 product teams.
+          </>
+        ),
         // optional: leave the array empty if you don't want to display images
         images: [
           {
@@ -215,7 +271,12 @@ const about = {
       },
       {
         title: "Javascript",
-        description: <>5 years of experience working with javscript on  enterprise level front end apps.</>,
+        description: (
+          <>
+            5 years of experience working with javscript on enterprise level
+            front end apps.
+          </>
+        ),
         images: [
           {
             src: "/images/skills/javascript-logo.jpg",
@@ -227,7 +288,12 @@ const about = {
       },
       {
         title: "Java",
-        description: <>6 year of experience working with Java, developing strong skills in OOP.</>,
+        description: (
+          <>
+            6 year of experience working with Java, developing strong skills in
+            OOP.
+          </>
+        ),
         images: [
           {
             src: "/images/skills/java-logo.jpg",
@@ -239,7 +305,12 @@ const about = {
       },
       {
         title: "Python",
-        description: <>Experience working with python to build backend technologies as well as for building cloud infrastructure.</>,
+        description: (
+          <>
+            Experience working with python to build backend technologies as well
+            as for building cloud infrastructure.
+          </>
+        ),
         images: [
           {
             src: "/images/skills/python-logo.jpg",
@@ -251,7 +322,12 @@ const about = {
       },
       {
         title: "AWS",
-        description: <>Completed Cloud Computing and Infrastructure as Code course focused in AWS in graduate school.</>,
+        description: (
+          <>
+            Completed Cloud Computing and Infrastructure as Code course focused
+            in AWS in graduate school.
+          </>
+        ),
         // optional: leave the array empty if you don't want to display images
         images: [
           {
