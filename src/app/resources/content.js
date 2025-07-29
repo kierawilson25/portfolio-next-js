@@ -112,14 +112,14 @@ const about = {
       {
         company: "OMI Live",
         timeframe: "2025 - Present",
-        role: "Technical Development Lead - Volunteer",
+        role: "Tech Co Founder",
         achievements: [
           <>
             Direct a team of three engineers at OMI Live, overseeing weekly planning, 
             task delegation, and performance check-ins to ensure timely and high-quality project execution.
           </>,
           <>
-            Define technical strategy and roadmap, identifying priorities and aligning engineering efforts with broader product and organizational goals.
+            Oversee implementation of AI chat bot, AI text to image sticker generation, and a complete site revamp to enable live streaming.
           </>,
         ],
         images: [],
