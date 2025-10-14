@@ -55,10 +55,10 @@ const home = {
     display: true,
     title: (
       <>
-        Recent project: <strong className="ml-4">Habit Tracker</strong>
+        Current passion project: <strong className="ml-4">Habit Tracker</strong>
       </>
     ),
-    href: "https://habit-tracker-two-lemon.vercel.app/",
+    href: "https://www.grainsofsand.app/",
   },
   subline: (
     <>
