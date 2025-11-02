@@ -110,8 +110,8 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "OMI Live",
-        timeframe: "2025 - Present",
+        company: "OMI Live Interum Codounder ",
+        timeframe: "June 2025 - November 2025",
         role: "Tech Co Founder",
         achievements: [
           <>
@@ -136,7 +136,7 @@ const about = {
           <>
             Develop and communicate teams road map to key business partners and
             product owners. Gather Requirements for campaigns from stakeholders
-            and translate them into technical specifications for the team to
+            and translate them into technical specifications for cross functional teams to
             execute on.
           </>,
           <>
@@ -153,7 +153,7 @@ const about = {
         role: "Programmer Analyst II",
         achievements: [
           <>
-            Supported over 22 product teams by developing solutions to extract
+            Supported over 22 product teams by developing custom solutions to extract
             information from DOM and javascript variables for website analytics
             collection.
           </>,
@@ -170,7 +170,7 @@ const about = {
         role: "User Experience Engineer",
         achievements: [
           <>
-            Contributed to the design engine platform at Ameriprise by providing
+            Contributed to the internal design engine platform using typescript and react to build pages providing
             developers with a set of reusable components and design patterns.
           </>,
           <>
