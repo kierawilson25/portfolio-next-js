@@ -11,13 +11,13 @@
   "dependencies": {
     "@floating-ui/react-dom": "^2.1.2",
     "@mdx-js/loader": "^3.1.0",
-    "@next/mdx": "^15.3.1",
+    "@next/mdx": "^15.5.22",
     "classnames": "^2.5.1",
     "cookie": "^1.0.2",
     "gray-matter": "^4.0.3",
-    "next": "^15.3.1",
-    "next-mdx-remote": "^5.0.0",
-    "postcss": "^8.5.3",
+    "next": "^15.5.22",
+    "next-mdx-remote": "^6.0.0",
+    "postcss": "^8.5.25",
     "postcss-preset-env": "^9.6.0",
     "prismjs": "^1.30.0",
     "react": "19.0.0",
@@ -27,7 +27,7 @@
     "remark": "^15.0.1",
     "remark-html": "^16.0.1",
     "sass": "^1.89.0",
-    "sharp": "^0.34.1"
+    "sharp": "^0.35.3"
   },
   "devDependencies": {
     "@csstools/postcss-global-data": "^2.1.1",
@@ -36,6 +36,7 @@
     "@types/react": "^18.3.20",
     "@types/react-dom": "^18.3.6",
     "eslint": "^9.25.0",
+    "eslint-config-next": "^15.5.22",
     "postcss-custom-media": "^10.0.8",
     "postcss-flexbugs-fixes": "^5.0.2",
     "typescript": "^5.8.3"

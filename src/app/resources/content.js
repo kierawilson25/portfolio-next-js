@@ -9,13 +9,13 @@ const person = {
   role: "Full Stack Engineer",
   avatar: "/images/Headshot.jpg",
   email: "kiera.wilson025@gmail.com",
-  location: "America/Chicago", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  location: "America/New_York", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: [], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
   display: true,
-  title: <>Subscribe to {person.firstName}'s Newsletter</>,
+  title: <>Subscribe to {person.firstName}&apos;s Newsletter</>,
   description: (
     <>
       I occasionally write about design, technology, and share thoughts on the
@@ -62,7 +62,7 @@ const home = {
   },
   subline: (
     <>
-      Its my world, you're just living in it. This portfolio show cases my work
+      Its my world, you&apos;re just living in it. This portfolio show cases my work
       from undergrad, graduate school, and my professional career.
       <br /> This site is a work in progress and not all skills or projects have
       been added yet, check my github for my most recent work. Click around and
@@ -92,7 +92,7 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Kiera Wilson is a Minneapolis based software engineer with a passion for
+        Kiera Wilson is a Charlotte based software engineer with a passion for
         creativity and enginuity. She holds a Bachelors of Science in Computer
         Science and is currently pursing a Masters Degree in Software
         Engineering from her Alma Mater, University of St. Thomas. Her
@@ -100,8 +100,11 @@ const about = {
         positions her as a one of a kind developer. Kiera is not only dedicated
         to crafting quick solutions but also sustainable ones. Documentation and
         readable code is a must for her. Her work is characterized by strong
-        results leadership and creativity. She is always looking for new
-        challenges and opportunities to grow her skills.
+        results leadership and creativity. She is a lifelong learner, always
+        looking for new challenges and opportunities to grow her skills, and a
+        community builder at heart. She runs the Charlotte chapter of The AI
+        Collective, helping bring local engineers and enthusiasts together to
+        learn and build with AI.
       </>
     ),
   },
@@ -109,21 +112,6 @@ const about = {
     display: true, // set to false to hide this section
     title: "Work Experience",
     experiences: [
-      {
-        company: "OMI Live Interum Codounder ",
-        timeframe: "June 2025 - November 2025",
-        role: "Tech Co Founder",
-        achievements: [
-          <>
-            Direct a team of three engineers at OMI Live, overseeing weekly planning, 
-            task delegation, and performance check-ins to ensure timely and high-quality project execution.
-          </>,
-          <>
-            Oversee implementation of AI chat bot, AI text to image sticker generation, and a complete site revamp to enable live streaming.
-          </>,
-        ],
-        images: [],
-      },
       {
         company: "Ameriprise Financial",
         timeframe: "2024 - Present",
