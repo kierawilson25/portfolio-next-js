@@ -17,7 +17,7 @@
     "gray-matter": "^4.0.3",
     "next": "^15.5.22",
     "next-mdx-remote": "^6.0.0",
-    "postcss": "^8.5.3",
+    "postcss": "^8.5.25",
     "postcss-preset-env": "^9.6.0",
     "prismjs": "^1.30.0",
     "react": "19.0.0",
@@ -27,7 +27,7 @@
     "remark": "^15.0.1",
     "remark-html": "^16.0.1",
     "sass": "^1.89.0",
-    "sharp": "^0.34.1"
+    "sharp": "^0.35.3"
   },
   "devDependencies": {
     "@csstools/postcss-global-data": "^2.1.1",
