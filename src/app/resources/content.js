@@ -15,7 +15,7 @@ const person = {
 
 const newsletter = {
   display: true,
-  title: <>Subscribe to {person.firstName}'s Newsletter</>,
+  title: <>Subscribe to {person.firstName}&apos;s Newsletter</>,
   description: (
     <>
       I occasionally write about design, technology, and share thoughts on the
@@ -62,7 +62,7 @@ const home = {
   },
   subline: (
     <>
-      Its my world, you're just living in it. This portfolio show cases my work
+      Its my world, you&apos;re just living in it. This portfolio show cases my work
       from undergrad, graduate school, and my professional career.
       <br /> This site is a work in progress and not all skills or projects have
       been added yet, check my github for my most recent work. Click around and
